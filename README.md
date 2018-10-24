@@ -1,15 +1,15 @@
-# **ALVIS.js**
+# **ALVIS.js [Deprecated]**
 **Discord bot, by [PacketCloud™](https://packetcloud.com)**  
-*Version: 0.7.8*  
+*Version: 0.7.8*  [Project Archived, Deprecated, and No Longer Maintained]  
 ## Description
-**ALVIS** (**A**synchronous **L**earning **V**irtual **I**ntelligence **S**ystem) is a server management and utility bot built for the voice and text chat service, *[Discord](https://discordapp.com)*. It utilizes Google's [DialogFlow](https://dialogflow.com) servers to introduce natural language request processing to the bot. Allowing for communication in plain English - not just commands. We are constantly expanding ALVIS' modules, features and knowledge base. We also have plans to add voice support in the future.  
+**ALVIS** (**A**synchronous **L**earning **V**irtual **I**ntelligence **S**ystem) is a server management and utility bot built for the voice and text chat service, *[Discord](https://discordapp.com)*. It utilizes Google's [DialogFlow](https://dialogflow.com) servers to introduce natural language request processing to the bot. Allowing for communication in plain English - not just commands. This repository has since been deprecated and is no longer maintained. It is no longer up-to-date with changes to dependencies, including *Discord.js* and *Dialogflow*. We recommend you no longer use this and make no attempt at forking or continuing development. We are exploring a functional rewrite of this bot on a Discord-bot puglin-based platform we are writing in Java; feel welcome to follow the development of that.
 
 ## Setting Up The Bot
 Before the bot will run, you must first set up a few values in the config files:
 ### Requirements:
 You must have a Discord bot token and Google API.AI key for an agent with proper Intents and Entities.
 Please [contact us](https://packetcloud.com/about) if you need further information about the API.AI agent.  
-You will also need a Wolfram API key, though in the future this will be changed to be *optional*; adding support for Wolfram knowledgebase lookup in chat bot functionality. There will also be more modules like this to come; which will also be optional.
+You will also need a Wolfram API key adding support for Wolfram knowledgebase lookup in chat bot functionality.
 
 ### Tokens:
 Enter your Discord bot token, API.AI agent key, and Wolfram API key into the config JSON file (*./config/config.json*).
